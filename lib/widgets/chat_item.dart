@@ -11,6 +11,8 @@ class ChatItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('Text--> $text');
+    print('isMe--> $isMe');
     return Container(
       margin: const EdgeInsets.symmetric(
         vertical: 10,

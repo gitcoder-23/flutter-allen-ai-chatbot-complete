@@ -1,6 +1,6 @@
 import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 
-String openAIAPIKey = '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';
+String openAIAPIKey = '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';
 
 class AIHandler {
   final _openAI = OpenAI.instance.build(

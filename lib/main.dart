@@ -16,6 +16,7 @@ class App extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final activeTheme = ref.watch(activeThemeProvider);
     return MaterialApp(
+      title: 'Allen Ai',
       theme: lightTheme,
       darkTheme: darkTheme,
       debugShowCheckedModeBanner: false,
