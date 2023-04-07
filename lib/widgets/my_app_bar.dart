@@ -9,11 +9,22 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(
-        'Flutter GPT',
-        style: TextStyle(
-          color: Theme.of(context).colorScheme.onPrimary,
-        ),
+      title: Row(
+        children: [
+          Image.asset(
+            'assets/allen-ai.png',
+            width: 40,
+          ),
+          const SizedBox(
+            width: 10,
+          ),
+          Text(
+            'Allen Ai',
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.onPrimary,
+            ),
+          ),
+        ],
       ),
       actions: [
         Row(
